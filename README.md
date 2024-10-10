@@ -77,3 +77,7 @@ git branch --set-upstream-to=origin/master master
 git pull
 git push
 ```
+
+## meson
+
+https://scipy.github.io/devdocs/building/distutils_equivalents.html

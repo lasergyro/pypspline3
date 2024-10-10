@@ -4,11 +4,12 @@
 3-D spline in float64 precision
 """
 
-import sys, time
+import sys
+import time
 
 import numpy as _np
 
-from pypspline3.pspline_3d import pspline, griddata
+from pypspline3.pspline_3d import griddata, pspline
 
 eps = 1.e-6
 

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["meson-python", "numpy"]
+build-backend = "mesonpy"
+
+[project]
+name = "pypspline3"
+version = "1.0.0"
+description = "Princeton Spline and Hermite Cubic Interpolation Routines"
+readme = "README.md"
+readme-content-type = "text/markdown"
+authors = [
+    { name = "Jonathan Schilling", email = "jonathan.schilling@mail.de" },
+]
+keywords = ["spline", "interpolation", "hermite", "cubic"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Fortran",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jonathanschilling/pypspline3"
+"Issue Tracker" = "https://github.com/jonathanschilling/pypspline3/issues"
